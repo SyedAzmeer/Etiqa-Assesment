@@ -23,7 +23,7 @@ public class StudentController {
 	
 	@GetMapping(value = "/")
 	public String getPage() {
-		return "Welcome";
+		return "Welcome!!!!";
 	}
 	
 	@GetMapping(value = "/students")
